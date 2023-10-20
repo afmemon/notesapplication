@@ -1,0 +1,30 @@
+Step 1: Create the Database
+
+Using a database management tool (e.g., phpMyAdmin) create a new database named "Laravel."
+
+Step 2: Run Migrations in Laravel
+
+Open your terminal or command prompt.
+
+Navigate to the root directory of your Laravel project using the cd command. Replace /path/to/your/laravel/project with the actual path to your Laravel project.
+
+cd /path/to/your/laravel/project
+
+Run the migration command to create the necessary database tables:
+
+php artisan migrate
+
+Step 3: Run the Frontend React Project
+
+Open a new terminal window.
+
+Navigate to your React project's root directory. For example, if your React project is in a folder named "myapp," you can do the following:
+
+cd /path/to/your/react/project/myapp
+
+npm start
+
+http://localhost:3000
+
+php artisan serve
+
